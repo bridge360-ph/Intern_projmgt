@@ -3,12 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC_srZyrj0julF4G2GcnHEFYOPZU8FzbAQ",
-  authDomain: "project-management-pdf.firebaseapp.com",
-  projectId: "project-management-pdf",
-  storageBucket: "project-management-pdf.appspot.com",
-  messagingSenderId: "798569515673",
-  appId: "1:798569515673:web:bfb2b866d1cf0744ff8608",
+  apiKey: "AIzaSyBkW8_UH8kAT1JmajbA6zpjx8WZDKCShS4",
+  authDomain: "proj-mgmt-10c67.firebaseapp.com",
+  projectId: "proj-mgmt-10c67",
+  storageBucket: "proj-mgmt-10c67.appspot.com",
+  messagingSenderId: "236008483548",
+  appId: "1:236008483548:web:5111db1b57e2411c9be219",
+  measurementId: "G-1LQKC2JYDH"
 };
 
 export const app = initializeApp(firebaseConfig);
